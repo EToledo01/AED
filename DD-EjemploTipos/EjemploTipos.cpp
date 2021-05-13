@@ -9,6 +9,8 @@ assert(1.5==1.5); //pruebo punto flotante
 assert(true and true==true); //pruebo booleano
 assert("a"=="a"); //pruebo char
 assert("hola" != "chau"); //pruebo string
+assert(10e2==1000);//pruebo double
+
 
 return 0;
 }
