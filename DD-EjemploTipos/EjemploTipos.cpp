@@ -17,6 +17,7 @@ assert('C'-'A'==2);//pruebo char
 assert('B'-1=='A');//pruebo char
 assert("hola" != "chau"); //pruebo string
 assert("hola"s.length()==4);//pruebo string
+assert("todo"s + "junto"s == "todojunto"s);//pruebo string
 
 
 return 0;
